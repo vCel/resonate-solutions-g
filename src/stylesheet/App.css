@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+:root {
+    --bg: #a3c5ff;
+}
+
+.seperator {
+    background-color: black;
+    height: 3px;
+    width: min(100% - 10rem, 600px);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.app-content {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.content-container {
+    width: min(100% - 2rem, 1000px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.users-listing {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    justify-self: center;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+    width: min(100%, 1000px);
+}
+
+.user-container {
+    width: min(100%, 450px);
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: var(--bg);
+}
+
+.user-container > .user-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.user-container .user-heading > .user-name {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.user-container > .user-heading > .user-id {
+    margin-right: 5px;
+}
+
+#user-un {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.user-container .user-body {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.user-container .user-body > * {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    gap: 3px;
+    margin: 2px 0px 2px 0px;
+}
+
+.user-container .user-body > * > #body-title {
+    grid-column: 1 / 2;
+    font-weight: 600;
+}
