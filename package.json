@@ -2,6 +2,7 @@
   "name": "resonate-solutions-g",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vcel.github.io/resonate-solutions-g/",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
